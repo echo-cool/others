@@ -1,0 +1,8 @@
+Name,Value
+ReportBuilderLaunchURL,5
+SharePointIntegrated,7200
+UseSessionCookies,True
+EnableRemoteErrors,True
+SystemSnapshotLimit,true
+EnableLoadReportDefinition,True
+

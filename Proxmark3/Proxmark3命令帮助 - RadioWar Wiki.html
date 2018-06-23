@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Proxmark3命令帮助 - RadioWar Wiki</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="generator" content="MediaWiki 1.23.0rc0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="RadioWar Wiki (zh-cn)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://wiki.radiowar.org/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="RadioWar Wiki的Atom feed" href="/index.php?title=%E7%89%B9%E6%AE%8A:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.radiowar.org/load.php?debug=false&amp;lang=zh-cn&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.ui.button%7Cskins.common.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: radiowarwiki-wi:resourceloader:filter:minify-css:7:2af1ea4ade8741968a8ce31a00616695 */</style>
+<script src="http://wiki.radiowar.org/load.php?debug=false&amp;lang=zh-cn&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Proxmark3命令帮助","wgTitle":"Proxmark3命令帮助","wgCurRevisionId":1024,"wgRevisionId":1024,"wgArticleId":8,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Proxmark3"],"wgBreakFrames":false,"wgPageContentLanguage":"zh-cn","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgMonthNamesShort":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRelevantPageName":"Proxmark3命令帮助","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"simplesearch":true,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"hidesig":true,"preview":false,"previewDialog":false,"publish":false}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"vector-simplesearch":1,"language":"zh-cn","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"zh-cn"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: radiowarwiki-wi:resourceloader:filter:minify-js:7:311c1e9638b81862db274f4da9c15888 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Proxmark3命令帮助 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<h1 id="firstHeading" class="firstHeading" lang="zh-CN"><span dir="auto">Proxmark3命令帮助</span></h1>
+						<div id="bodyContent">
+								<div id="siteSub">来自RadioWar Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					跳转至：					<a href="#mw-navigation">导航</a>、					<a href="#p-search">搜索</a>
+				</div>
+				<div id="mw-content-text" lang="zh-CN" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>目录</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E4.BD.BF.E7.94.A8.E6.8A.80.E5.B7.A7"><span class="tocnumber">1</span> <span class="toctext"><b>使用技巧</b></span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#help_.E4.B8.BB.E5.B8.AE.E5.8A.A9.E5.91.BD.E4.BB.A4.EF.BC.88.E5.9F.BA.E4.BA.8Er830.E4.BB.A5.E5.8F.8A.E4.BB.A5.E4.B8.8B.E7.89.88.E6.9C.AC.EF.BC.89"><span class="tocnumber">2</span> <span class="toctext"><b>help 主帮助命令（基于r830以及以下版本）</b></span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#hw_.E7.A1.AC.E4.BB.B6.E6.A3.80.E6.B5.8B.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4"><span class="tocnumber">3</span> <span class="toctext"><b>hw 硬件检测相关命令</b></span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#data_.E5.9B.BE.E5.BD.A2.E7.AA.97.E5.8F.A3.2F.E7.BC.93.E5.86.B2.E5.8C.BA.E6.95.B0.E6.8D.AE.E6.93.8D.E4.BD.9C.E7.AD.89.E5.91.BD.E4.BB.A4"><span class="tocnumber">4</span> <span class="toctext"><b>data 图形窗口/缓冲区数据操作等命令</b></span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#lf_.E4.BD.8E.E9.A2.91.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4"><span class="tocnumber">5</span> <span class="toctext"><b>lf 低频相关命令</b></span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#lf_em4x_.28EM4X.E5.8D.A1.E7.B1.BB.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....29"><span class="tocnumber">5.1</span> <span class="toctext">lf em4x (EM4X卡类相关命令...)</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#lf_hid_.28HID.E5.8D.A1.E7.B1.BB.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....29"><span class="tocnumber">5.2</span> <span class="toctext">lf hid (HID卡类相关命令...)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#lf_ti_.28TI.E5.8D.A1.E7.B1.BB.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....29"><span class="tocnumber">5.3</span> <span class="toctext">lf ti (TI卡类相关命令...)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#lf_hitag_.28Hitag.E6.A0.87.E7.AD.BE.E4.B8.8E.E5.BA.94.E7.AD.94.E7.9B.B8.E5.85.B3.E2.80.A6.29"><span class="tocnumber">5.4</span> <span class="toctext">lf hitag (Hitag标签与应答相关…)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#hf_.E9.AB.98.E9.A2.91.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4"><span class="tocnumber">6</span> <span class="toctext"><b>hf 高频相关命令</b></span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#hf_14a_.EF.BC.88ISO14443A.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89"><span class="tocnumber">6.1</span> <span class="toctext">hf 14a （ISO14443A卡的相关命令...）</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#hf_14b_.EF.BC.88ISO14443B.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89"><span class="tocnumber">6.2</span> <span class="toctext">hf 14b （ISO14443B卡的相关命令...）</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#hf_15_.EF.BC.88ISO15693.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89"><span class="tocnumber">6.3</span> <span class="toctext">hf 15 （ISO15693卡的相关命令...）</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#hf_epa_.EF.BC.88.E5.BE.B7.E5.9B.BD.E8.BA.AB.E4.BB.BD.E8.AF.81.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89"><span class="tocnumber">6.4</span> <span class="toctext">hf epa （德国身份证相关命令...）</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#hf_legic_.EF.BC.88LEGIC.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89"><span class="tocnumber">6.5</span> <span class="toctext">hf legic （LEGIC卡的相关命令...）</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#hf_iclass_.EF.BC.88ICLASS.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89"><span class="tocnumber">6.6</span> <span class="toctext">hf iclass （ICLASS卡的相关命令...）</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#hf_mf_.EF.BC.88MIFARE.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89"><span class="tocnumber">6.7</span> <span class="toctext">hf mf （MIFARE卡的相关命令...）</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id=".E4.BD.BF.E7.94.A8.E6.8A.80.E5.B7.A7"><b>使用技巧</b></span></h2>
+<ul>
+<li>Proxmark3的命令使用最小匹配模式，每个命令只要输入到可以唯一识别即可，例如 <a href="/Hf_mf_chk" title="Hf mf chk">hf mf chk</a> ，在hf mf 下只有一个c开头的命令chk,所以<a href="/Hf_mf_chk" title="Hf mf chk">hf mf chk</a> ，hf mf ch， hf mf c都是等价的，所以看到网上资料里的命令不一样不要怀疑，他们是等价的。
+</li>
+</ul>
+<p><br />
+</p>
+<ul>
+<li>Proxmark3每次运行都会在同目录下产生一个proxmark3.log文本文件，这个文件记录着Proxmark3执行你每条命令的结果。记住，只是命令执行的结果。命令本身存储的同目录.history文件里面。需要看历史记录可以打开proxmark3.log以及.history查看。
+</li>
+</ul>
+<p><br />
+</p>
+<ul>
+<li>输入所有存在命令，不加任何参数，会直接显示该命令的帮助信息。
+</li>
+</ul>
+<p><br />
+</p>
+<ul>
+<li>所有的命令帮助中，用大括号{}括起来的，并且有省略号的表示有下一级的命令。例如hf命令下的14a、14b、15、legic、iclass、mf的帮助信息都是{ …}形式，表示还存在下一级的命令。
+</li>
+</ul>
+<p><br />
+</p>
+<ul>
+<li>当你使用<a href="/Hf_mf_chk" title="Hf mf chk">hf mf chk</a>自动化操作的时候，如果全卡为默认Key，请手动创建一个16进制文件名为dumpkeys.bin的文件，并且把已知的所有KeyA/B写入文件内！先写KeyA，在写KeyB，记住不要有空格/回车！然后放在Proxmark3客户端目录下，再执行<a href="/Hf_mf_dump" title="Hf mf dump">hf mf dump</a>，你就会得到全卡的dumpdata啦！前提是KeyB为write.
+</li>
+</ul>
+<p><br />
+</p>
+<ul>
+<li>Em4x的卡直接放卡一直不出ID，可以试试这个技巧：一开始先执行410xwatch，然后再往上放卡，一般就能出Tag ID。
+</li>
+</ul>
+<p><br />
+</p>
+<ul>
+<li>高频命令中针对UID卡的所有命令都不需要Key，直接读写UID卡。
+</li>
+</ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="help_.E4.B8.BB.E5.B8.AE.E5.8A.A9.E5.91.BD.E4.BB.A4.EF.BC.88.E5.9F.BA.E4.BA.8Er830.E4.BB.A5.E5.8F.8A.E4.BB.A5.E4.B8.8B.E7.89.88.E6.9C.AC.EF.BC.89"><b>help 主帮助命令（基于r830以及以下版本）</b></span></h2>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助. （使用命令 '&lt;command&gt; help'获取相关命令的详细帮助信息。当然直接输入相关命令，不加help，也能出现该命令的帮助信息。）//例如 hw help 与 hw 是等价的。
+</td></tr>
+<tr>
+<th>data
+</th>
+<td> 图形窗口/缓冲区数据操作等等
+</td></tr>
+<tr>
+<th>exit
+</th>
+<td> 退出Proxmark3的终端环境
+</td></tr>
+<tr>
+<th>hf
+</th>
+<td> 高频相关命令
+</td></tr>
+<tr>
+<th>hw
+</th>
+<td> 硬件检测相关命令
+</td></tr>
+<tr>
+<th>lf
+</th>
+<td> 低频相关命令
+</td></tr>
+<tr>
+<th>quit
+</th>
+<td> 退出Proxmark3的终端环境等同exit
+</td></tr></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="hw_.E7.A1.AC.E4.BB.B6.E6.A3.80.E6.B5.8B.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4"><b>hw 硬件检测相关命令</b></span></h2>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>detectreader
+</th>
+<td>['l'/'h'] --检测外部读卡器频率区域（选项“l”或“h”限制到低频LF或高频HF）
+</td></tr>
+<tr>
+<th>fpgaoff
+</th>
+<td>设置FPGA为关闭
+</td></tr>
+<tr>
+<th>lcd
+</th>
+<td>&lt;16进制命令&gt; &lt;次数&gt; -- 发送命令/数据到LCD
+</td></tr>
+<tr>
+<th>lcdreset
+</th>
+<td>重置LCD
+</td></tr>
+<tr>
+<th>readmem
+</th>
+<td>从芯片中读取10进制地址的存贮器
+</td></tr>
+<tr>
+<th>reset
+</th>
+<td>重置Proxmark3
+</td></tr>
+<tr>
+<th>setlfdivisor
+</th>
+<td>&lt;19 - 255&gt; -- 在12Mhz/(基数+1)驱动LF天线
+</td></tr>
+<tr>
+<th>setmux
+</th>
+<td>&lt;loraw/hiraw/lopkd/hipkd&gt; -- 设置ADC多路复用器为一个特定的值
+</td></tr>
+<tr>
+<th>tune
+</th>
+<td>测量天线的调谐
+</td></tr>
+<tr>
+<th>version
+</th>
+<td>显示Proxmark3的固件版本信息
+</td></tr></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="data_.E5.9B.BE.E5.BD.A2.E7.AA.97.E5.8F.A3.2F.E7.BC.93.E5.86.B2.E5.8C.BA.E6.95.B0.E6.8D.AE.E6.93.8D.E4.BD.9C.E7.AD.89.E5.91.BD.E4.BB.A4"><b>data 图形窗口/缓冲区数据操作等命令</b></span></h2>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>amp
+</th>
+<td>放大峰值
+</td></tr>
+<tr>
+<th>askdemod
+</th>
+<td>&lt;0/1&gt;--尝试调制显示移幅键控的波形
+</td></tr>
+<tr>
+<th>autocorr
+</th>
+<td>&lt;窗口长度&gt; -- 自动校正窗口
+</td></tr>
+<tr>
+<th>bitsamples
+</th>
+<td>获得原始样本作为bit
+</td></tr>
+<tr>
+<th>bitstream
+</th>
+<td>[时钟速率] -- 转换成比特流的波形
+</td></tr>
+<tr>
+<th>buffclear
+</th>
+<td>清除缓冲样本和图形窗口
+</td></tr>
+<tr>
+<th>dec
+</th>
+<td>抽取样本
+</td></tr>
+<tr>
+<th>detectclock
+</th>
+<td>检测时钟速率
+</td></tr>
+<tr>
+<th>fskdemod
+</th>
+<td>作为HID的FSK显示波形图形窗口
+</td></tr>
+<tr>
+<th>grid
+</th>
+<td> &lt;x&gt; &lt;y&gt; -- 在图形上窗口覆盖网格，用0值关闭
+</td></tr>
+<tr>
+<th>hexsamples
+</th>
+<td>&lt;区块&gt; [&lt;偏移&gt;] --作为16进制转储较大缓冲区
+</td></tr>
+<tr>
+<th>hide
+</th>
+<td>隐藏图形窗口
+</td></tr>
+<tr>
+<th>hpf
+</th>
+<td>从轨迹线移除直流偏移
+</td></tr>
+<tr>
+<th>load
+</th>
+<td>&lt;文件名&gt; -- 从文件加载轨迹（给图形窗口）
+</td></tr>
+<tr>
+<th>ltrim
+</th>
+<td>&lt;samples&gt; -- 从左轨迹整理样本
+</td></tr>
+<tr>
+<th>mandemod
+</th>
+<td>[i] [时钟速率] --曼彻斯特解调二进制流（选项“i”颠倒输出）
+</td></tr>
+<tr>
+<th>manmod
+</th>
+<td>[时钟速率] --曼彻斯特解调二进制流
+</td></tr>
+<tr>
+<th>norm
+</th>
+<td>正常大小改变最大/最小至+/-500
+</td></tr>
+<tr>
+<th>plot
+</th>
+<td>显示图形窗口（点击窗口中的'h'显示按键帮助）
+</td></tr>
+<tr>
+<th>samples
+</th>
+<td>[128 - 16000] -- 从图形窗口获取原始样本
+</td></tr>
+<tr>
+<th>save
+</th>
+<td>&lt;文件名&gt; --保存轨迹（从图形窗口）
+</td></tr>
+<tr>
+<th>scale
+</th>
+<td>&lt;数值&gt; -- 设置光标的显示比例
+</td></tr>
+<tr>
+<th>threshold
+</th>
+<td>&lt;阈值&gt; --根据阈值最大化/最小化图形窗口
+</td></tr>
+<tr>
+<th>zerocrossings
+</th>
+<td>计算零交点的时间
+</td></tr></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="lf_.E4.BD.8E.E9.A2.91.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4"><b>lf 低频相关命令</b></span></h2>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>cmdread
+</th>
+<td>&lt;off&gt; &lt;'0'&gt; &lt;'1'&gt; &lt;命令&gt; ['h'] -- 在读取之前发送命令来调整LF读卡器周期（以微妙为单位）（'h'选项为134）
+</td></tr>
+<tr>
+<th>em4x
+</th>
+<td>EM4X卡类相关命令...
+</td></tr>
+<tr>
+<th>flexdemod
+</th>
+<td>解调FlexPass样本
+</td></tr>
+<tr>
+<th>hid
+</th>
+<td>HID卡类相关命令...
+</td></tr>
+<tr>
+<th>indalademod
+</th>
+<td>['224'] --解调Indala样本的64位UID（选项'224'是224位）
+</td></tr>
+<tr>
+<th>indalaclone
+</th>
+<td>[UID] ['l']-- 克隆Indala到T55x7卡 (标签必须在天线上)(UID为16进制)(选项'l'表示224位UID)
+</td></tr>
+<tr>
+<th>read
+</th>
+<td>['h'] -- 读取125/134 kHz的低频ID标签(选项'h'是134)
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>[GAP] -- 从可选GAP的缓冲区模拟低频标签(以微秒为单位)
+</td></tr>
+<tr>
+<th>simbidir
+</th>
+<td>模拟低频标签（在读卡器和标签之间双向传输数据）
+</td></tr>
+<tr>
+<th>simman
+</th>
+<td>&lt;时钟&gt; &lt;比特率&gt; [GAP] 模拟任意曼彻斯特低频标签
+</td></tr>
+<tr>
+<th>ti
+</th>
+<td>TI卡类相关命令...
+</td></tr>
+<tr>
+<th>hitag
+</th>
+<td>Hitag标签与应答相关…
+</td></tr>
+<tr>
+<th>vchdemod
+</th>
+<td>['clone']  - 解调VeriChip公司样本
+</td></tr>
+<tr>
+<th>t55xx
+</th>
+<td>T55xx卡类相关命令...
+</td></tr>
+<tr>
+<th>PCF7931
+</th>
+<td>PCF7931卡类相关命令...
+</td></tr></table>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="lf_em4x_.28EM4X.E5.8D.A1.E7.B1.BB.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....29">lf em4x (EM4X卡类相关命令...)</span></h3>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>em410xread
+</th>
+<td>[时钟速率] -- 提取EM410x标签的ID
+</td></tr>
+<tr>
+<th>em410xsim
+</th>
+<td>&lt;UID&gt; -- 模拟EM410x标签
+</td></tr>
+<tr>
+<th>em410xwatch
+</th>
+<td>读取EM410x标签，2000次取样获取ID
+</td></tr>
+<tr>
+<th>em410xwrite
+</th>
+<td>&lt;UID&gt; &lt;'0' T5555&gt; &lt;'1' T55x7&gt; --把EM410x UID写入T5555(Q5)或T55x7标签
+</td></tr>
+<tr>
+<th>em4x50read
+</th>
+<td>从EM4x50标签中读取数据
+</td></tr>
+<tr>
+<th>readword
+</th>
+<td>&lt;Word&gt;--读取EM4xxx字符数据
+</td></tr>
+<tr>
+<th>readwordPWD
+</th>
+<td>&lt;Word&gt;&lt;Password&gt;--在密码模式下读取EM4xxx字符数据
+</td></tr>
+<tr>
+<th>writeword
+</th>
+<td><data>&lt;Word&gt;--写入EM4xxx字符数据
+</td></tr>
+<tr>
+<th>writewordPWD
+</th>
+<td>&lt;Data&gt;&lt;Word&gt;&lt;Password&gt;--在密码模式下写入EM4xxx字符数据
+</td></tr>
+</table>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="lf_hid_.28HID.E5.8D.A1.E7.B1.BB.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....29">lf hid (HID卡类相关命令...)</span></h3>
+<table class="wikitable" border="1">
+
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>demod
+</th>
+<td>解调HID Prox卡II（不是最佳）
+</td></tr>
+<tr>
+<th>fskdemod
+</th>
+<td>实时的HID FSK解调器
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>&lt;ID&gt; -- 模拟HID标签
+</td></tr>
+<tr>
+<th>clone
+</th>
+<td> &lt;ID&gt; -- 克隆HID到T55x7卡（标签必须是在天线上）
+</td></tr></table>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="lf_ti_.28TI.E5.8D.A1.E7.B1.BB.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....29">lf ti (TI卡类相关命令...)</span></h3>
+<table class="wikitable" border="1">
+
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>demod
+</th>
+<td>TI型LF标签解调原始位
+</td></tr>
+<tr>
+<th>read
+</th>
+<td>读取和解码TI类134kHz的标签
+</td></tr>
+<tr>
+<th>write
+</th>
+<td>新的数据写入一个能读/写的TI类134kHz标签
+</td></tr></table>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="lf_hitag_.28Hitag.E6.A0.87.E7.AD.BE.E4.B8.8E.E5.BA.94.E7.AD.94.E7.9B.B8.E5.85.B3.E2.80.A6.29">lf hitag (Hitag标签与应答相关…)</span></h3>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>list
+</th>
+<td>列出Hitag嗅探的数据
+</td></tr>
+<tr>
+<th>reader
+</th>
+<td>作为读卡器读取Hitag标签的数据
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>模拟Hitag应答
+</td></tr>
+<tr>
+<th>snoop
+</th>
+<td>窃听Hitag通信
+</td></tr></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="hf_.E9.AB.98.E9.A2.91.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4"><b>hf 高频相关命令</b></span></h2>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>14a
+</th>
+<td>ISO14443A卡的相关命令...
+</td></tr>
+<tr>
+<th>14b
+</th>
+<td>ISO14443B卡的相关命令...
+</td></tr>
+<tr>
+<th>15
+</th>
+<td>ISO15693卡的相关命令...
+</td></tr>
+<tr>
+<th>epa
+</th>
+<td>德国身份证的相关命令...
+</td></tr>
+<tr>
+<th>legic
+</th>
+<td>LEGIC卡的相关命令...
+</td></tr>
+<tr>
+<th>iclass
+</th>
+<td>ICLASS卡的相关命令...
+</td></tr>
+<tr>
+<th>mf
+</th>
+<td>MIFARE卡的相关命令...
+</td></tr>
+<tr>
+<th>tune
+</th>
+<td>连续测量高频天线的调谐
+</td></tr>
+</table>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="hf_14a_.EF.BC.88ISO14443A.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89">hf 14a （ISO14443A卡的相关命令...）</span></h3>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>list
+</th>
+<td>列出窃听到的ISO14443A类卡与读卡器的通信历史记录
+</td></tr>
+<tr>
+<th>reader
+</th>
+<td>读取ISO14443A类卡的UID等数据
+</td></tr>
+<tr>
+<th>cuids
+</th>
+<td>收集指定数目的随机UID，显示开始和结束时间。
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>&lt;UID&gt; -- 模拟ISO14443A类标签
+</td></tr>
+<tr>
+<th>snoop
+</th>
+<td>窃听ISO14443A类卡与读卡器的通信数据
+</td></tr>
+<tr>
+<th>raw
+</th>
+<td>使用RAW格式命令发送指令到标签
+</td></tr>
+</table>
+<h3><span class="mw-headline" id="hf_14b_.EF.BC.88ISO14443B.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89">hf 14b （ISO14443B卡的相关命令...）</span></h3>
+<table class="wikitable" border="1">
+
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>demod
+</th>
+<td>调制ISO14443B协议的标签
+</td></tr>
+<tr>
+<th>list
+</th>
+<td>列出窃听到的ISO14443B类卡与读卡器通信历史记录
+</td></tr>
+<tr>
+<th>read
+</th>
+<td>读取ISO14443B类卡的信息
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>模拟ISO14443B类标签
+</td></tr>
+<tr>
+<th>simlisten
+</th>
+<td>从高频样本中模拟ISO14443B类标签
+</td></tr>
+<tr>
+<th>snoop
+</th>
+<td>监听ISO14443B类卡与读卡器之间的通信数据
+</td></tr>
+<tr>
+<th>sri512read
+</th>
+<td>&lt;int&gt; -- 读取SRI512标签的内容
+</td></tr>
+<tr>
+<th>srix4kread
+</th>
+<td>&lt;int&gt; -- 读取SRIX4K标签的内容
+</td></tr>
+<tr>
+<th>raw
+</th>
+<td>使用RAW格式命令发送指令到标签
+</td></tr></table>
+<h3><span class="mw-headline" id="hf_15_.EF.BC.88ISO15693.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89">hf 15 （ISO15693卡的相关命令...）</span></h3>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>demod
+</th>
+<td>调制ISO15693协议的标签
+</td></tr>
+<tr>
+<th>read
+</th>
+<td>读取ISO15693类卡的信息
+</td></tr>
+<tr>
+<th>record
+</th>
+<td>记录ISO15693标签样本
+</td></tr>
+<tr>
+<th>reader
+</th>
+<td>作为ISO15693卡类的读卡器，读取UID等信息
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>模拟ISO15693协议的标签
+</td></tr>
+<tr>
+<th>cmd
+</th>
+<td>向ISO15693协议的标签直接发送命令
+</td></tr>
+<tr>
+<th>findafi
+</th>
+<td>暴力一个ISO15693标签的AFI
+</td></tr>
+<tr>
+<th>dumpmemory
+</th>
+<td>读取ISO15693标签的所有页内存数据
+</td></tr></table>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="hf_epa_.EF.BC.88.E5.BE.B7.E5.9B.BD.E8.BA.AB.E4.BB.BD.E8.AF.81.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89">hf epa （德国身份证相关命令...）</span></h3>
+<table class="wikitable" border="1">
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>cnonces
+</th>
+<td>&lt;m&gt; &lt;n&gt; &lt;d&gt;——在d秒内收集n个字节长度为m的加密值。
+</td></tr></table>
+<h3><span class="mw-headline" id="hf_legic_.EF.BC.88LEGIC.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89">hf legic （LEGIC卡的相关命令...）</span></h3>
+<table class="wikitable" border="1">
+
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>decode
+</th>
+<td>显示非混淆的解码后的LEGIC的射频标签数据（在使用hf legic reader之后）
+</td></tr>
+<tr>
+<th>save
+</th>
+<td>&lt;filename&gt; [&lt;length&gt;] --存储样本数据
+</td></tr>
+<tr>
+<th>load
+</th>
+<td>&lt;filename&gt; -- 恢复样本数据
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>[phase drift [frame drift [req/resp drift]]] 开始模拟标签 (在使用load或者read之后)
+</td></tr>
+<tr>
+<th>write
+</th>
+<td>&lt;offset&gt; &lt;length&gt; -- 向缓冲区写数据(在使用load或者read之后)
+</td></tr>
+<tr>
+<th>fill
+</th>
+<td>&lt;offset&gt; &lt;length&gt; &lt;value&gt; -- 填写/写标签恒定值
+</td></tr></table>
+<h3><span class="mw-headline" id="hf_iclass_.EF.BC.88ICLASS.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89">hf iclass （ICLASS卡的相关命令...）</span></h3>
+<table class="wikitable" border="1">
+
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>list
+</th>
+<td>列出窃听到的iClass类卡与读卡器的通信历史记录
+</td></tr>
+<tr>
+<th>snoop
+</th>
+<td>窃听iClass类卡与读卡器的通信数据
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>模拟iClass标签
+</td></tr>
+<tr>
+<th>reader
+</th>
+<td>读取iClass标签
+</td></tr>
+</table>
+<h3><span class="mw-headline" id="hf_mf_.EF.BC.88MIFARE.E5.8D.A1.E7.9A.84.E7.9B.B8.E5.85.B3.E5.91.BD.E4.BB.A4....EF.BC.89">hf mf （MIFARE卡的相关命令...）</span></h3>
+<table class="wikitable" border="1">
+
+
+<tr>
+<th>help
+</th>
+<td>显示帮助
+</td></tr>
+<tr>
+<th>dbg
+</th>
+<td>设置默认调试模式
+</td></tr>
+<tr>
+<th>rdbl
+</th>
+<td>读取MIFARE classic卡的区块数据
+</td></tr>
+<tr>
+<th>rdsc
+</th>
+<td>读取MIFARE classic卡的扇区数据
+</td></tr>
+<tr>
+<th><a href="/Hf_mf_dump" title="Hf mf dump">dump</a>
+</th>
+<td><a href="/Hf_mf_dump" title="Hf mf dump">导出MIFARE classic卡的数据到二进制文件</a>
+</td></tr>
+<tr>
+<th>restore
+</th>
+<td>从二进制文件恢复数据到空白的MIFARE classic卡
+</td></tr>
+<tr>
+<th>wrbl
+</th>
+<td>改写MIFARE classic卡的区块数据
+</td></tr>
+<tr>
+<th><a href="/Hf_mf_chk" title="Hf mf chk">chk</a>
+</th>
+<td><a href="/Hf_mf_chk" title="Hf mf chk">测试MIFARE classic卡的各个区块KEY A/B</a>
+</td></tr>
+<tr>
+<th>mifare
+</th>
+<td>基于PRNG漏洞，执行mifare “DarkSide”攻击操作
+</td></tr>
+<tr>
+<th>nested
+</th>
+<td>测试嵌套认证漏洞，基于一个已知Key，获取都有扇区Keys
+</td></tr>
+<tr>
+<th>sniff
+</th>
+<td>嗅卡片与读写器之间的通讯(等同于hf 14a snoop)
+</td></tr>
+<tr>
+<th>sim
+</th>
+<td>模拟一个MIFARE卡片
+</td></tr>
+<tr>
+<th>eclr
+</th>
+<td>清除仿真内存的各区块数据
+</td></tr>
+<tr>
+<th>eget
+</th>
+<td>获取仿真内存的各区块数据
+</td></tr>
+<tr>
+<th>eset
+</th>
+<td>设置仿真内存的各区块数据
+</td></tr>
+<tr>
+<th>eload
+</th>
+<td>从导出的文件加载仿真数据
+</td></tr>
+<tr>
+<th>esave
+</th>
+<td>导出保存仿真数据到文件
+</td></tr>
+<tr>
+<th>ecfill
+</th>
+<td>利用仿真器的keys来填补仿真内存
+</td></tr>
+<tr>
+<th>ekeyprn
+</th>
+<td>打印输出仿真内存中的keys
+</td></tr>
+<tr>
+<th>csetuid
+</th>
+<td>直接设置可改UID卡的UID
+</td></tr>
+<tr>
+<th>csetblk
+</th>
+<td>把对应区块数据写入UID卡
+</td></tr>
+<tr>
+<th>cgetblk
+</th>
+<td>读取UID卡对应区块数据
+</td></tr>
+<tr>
+<th>cgetsc
+</th>
+<td>读取UID卡对应扇区数据
+</td></tr>
+<tr>
+<th>cload
+</th>
+<td>写入dump数据到UID卡。<a rel="nofollow" class="external text" href="http://wiki.radiowar.org/%E9%97%AE%E9%A2%98%E6%B1%87%E9%9B%86#.E4.B8.BA.E4.BB.80.E4.B9.88.E4.BD.BF.E7.94.A8cload.E5.AF.BC.E5.85.A5.E6.95.B0.E6.8D.AE.E7.9A.84.E6.97.B6.E5.80.99.EF.BC.8C.E6.8F.90.E7.A4.BA.E6.89.BE.E4.B8.8D.E5.88.B0.E6.96.87.E4.BB.B6">注意</a>
+</td></tr>
+<tr>
+<th>csave
+</th>
+<td>保存UID卡数据到文件或者仿真内存
+</td></tr></table></data>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.056 seconds
+Real time usage: 0.061 seconds
+Preprocessor visited node count: 67/1000000
+Preprocessor generated node count: 72/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key radiowarwiki-wi:pcache:idhash:8-0!*!0!!zh-cn!*!* and timestamp 20171117134401 and revision id 1024
+ -->
+</div>								<div class="printfooter">
+				取自“<a href="http://wiki.radiowar.org/index.php?title=Proxmark3命令帮助&amp;oldid=1024">http://wiki.radiowar.org/index.php?title=Proxmark3命令帮助&amp;oldid=1024</a>”				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/%E7%89%B9%E6%AE%8A:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="特殊:页面分类">分类</a>：<ul><li><a href="/index.php?title=%E5%88%86%E7%B1%BB:Proxmark3&amp;action=edit&amp;redlink=1" class="new" title="分类:Proxmark3（页面不存在）">Proxmark3</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>导航菜单</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">个人工具</h3>
+	<ul>
+<li id="pt-login"><a href="/index.php?title=%E7%89%B9%E6%AE%8A:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9" title="我们鼓励您登录，不过这不是强制的[o]" accesskey="o">登录</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">名字空间</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9"  title="查看内容页面[c]" accesskey="c">页面</a></span></li>
+					<li  id="ca-talk"><span><a href="/%E8%AE%A8%E8%AE%BA:Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9"  title="关于内容页面的讨论[t]" accesskey="t">讨论</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>变种</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">查看</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9" >阅读</a></span></li>
+					<li id="ca-viewsource"><span><a href="/index.php?title=Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9&amp;action=edit"  title="本页面受到保护。&#10;您可以查看其源代码[e]" accesskey="e">查看源代码</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/index.php?title=Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9&amp;action=history"  title="本页面过去的版本[h]" accesskey="h">查看历史</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>操作</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">搜索</label></h3>
+	<form action="/index.php" id="searchform">
+					<div id="simpleSearch">
+					<input type="search" name="search" placeholder="搜索" title="搜索RadioWar Wiki[f]" accesskey="f" id="searchInput" /><input type="hidden" value="特殊:搜索" name="title" /><input type="submit" name="fulltext" value="搜索" title="搜索含这些文字的页面" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="前往" title="如果相同的标题存在的话便直接前往该页面" id="searchButton" class="searchButton" />		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(/skins/common/images/wiki.png);" href="/%E9%A6%96%E9%A1%B5"  title="访问首页"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>导航</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/%E9%A6%96%E9%A1%B5" title="访问首页[z]" accesskey="z">首页</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-ChameleonMini' aria-labelledby='p-ChameleonMini-label'>
+	<h3 id='p-ChameleonMini-label'>ChameleonMini</h3>
+	<div class="body">
+		<ul>
+			<li id="n-ChameleonMini.E4.BB.8B.E7.BB.8D"><a href="/ChameleonMini">ChameleonMini介绍</a></li>
+			<li id="n-ChameleonMini.E4.BD.BF.E7.94.A8.E6.95.99.E7.A8.8B"><a href="/ChameleonMini%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B">ChameleonMini使用教程</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-Yard_Stick_One' aria-labelledby='p-Yard_Stick_One-label'>
+	<h3 id='p-Yard_Stick_One-label'>Yard Stick One</h3>
+	<div class="body">
+		<ul>
+			<li id="n-YARD-Stick-One.E4.BB.8B.E7.BB.8D"><a href="/YARD-Stick-One">YARD-Stick-One介绍</a></li>
+			<li id="n-YARD-Stick-One.E4.BD.BF.E7.94.A8.E6.95.99.E7.A8.8B"><a href="/YARD-Stick-One%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B">YARD-Stick-One使用教程</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>工具</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/%E7%89%B9%E6%AE%8A:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9" title="所有链接至本页面的wiki页面的列表[j]" accesskey="j">链入页面</a></li>
+			<li id="t-recentchangeslinked"><a href="/%E7%89%B9%E6%AE%8A:%E7%9B%B8%E5%85%B3%E6%9B%B4%E6%94%B9/Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9" title="链自本页的页面的最近更改[k]" accesskey="k">相关更改</a></li>
+			<li id="t-specialpages"><a href="/%E7%89%B9%E6%AE%8A:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="所有特殊页面的列表[q]" accesskey="q">特殊页面</a></li>
+			<li id="t-print"><a href="/index.php?title=Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9&amp;printable=yes" rel="alternate" title="本页面的可打印版本[p]" accesskey="p">打印版本</a></li>
+			<li id="t-permalink"><a href="/index.php?title=Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9&amp;oldid=1024" title="本页面该版本的永久链接">永久链接</a></li>
+			<li id="t-info"><a href="/index.php?title=Proxmark3%E5%91%BD%E4%BB%A4%E5%B8%AE%E5%8A%A9&amp;action=info">页面信息</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> 本页面最后修改于2014年3月14日 (星期五) 22:07。</li>
+											<li id="footer-info-viewcount">本页面已经被访问过122,982次。</li>
+											<li id="footer-info-copyright">除非另有声明，本网站内容采用<a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">知识共享署名-非商业性使用-相同方式共享</a>授权。</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/%E9%A1%B9%E7%9B%AE:%E9%9A%90%E7%A7%81%E6%9D%83%E6%94%BF%E7%AD%96" title="项目:隐私权政策">隐私权政策</a></li>
+											<li id="footer-places-about"><a href="/%E9%A1%B9%E7%9B%AE:%E5%85%B3%E4%BA%8E" title="项目:关于">关于</a></li>
+											<li id="footer-places-disclaimer"><a href="/%E9%A1%B9%E7%9B%AE:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E" title="项目:免责声明">免责声明</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="/skins/common/images/cc-by-nc-sa.png" alt="知识共享署名-非商业性使用-相同方式共享" width="88" height="31" /></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.vector.simpleSearch","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":67});
+}</script>
+	</body>
+</html>

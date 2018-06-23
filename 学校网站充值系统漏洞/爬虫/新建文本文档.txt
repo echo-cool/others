@@ -1,0 +1,66 @@
+
+[root@vultr nmap]# nmap -sS -O -sV  www.baihecard.com
+Warning: File ./nmap-os-db exists, but Nmap is using /usr/local/bin/../share/nmap/nmap-os-db for security and consistency reasons.  set NMAPDIR=. to give priority to files in your local directory (may affect the other data files too).
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-05-03 13:06 CST
+Nmap scan report for www.baihecard.com (39.106.55.184)
+Host is up (0.16s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE       VERSION
+22/tcp   open   ssh           OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp   open   http          nginx 1.10.3 (Ubuntu)
+443/tcp  closed https
+3389/tcp closed ms-wbt-server
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.09 seconds
+[root@vultr nmap]# nmap -sS -O -sV  www.baihecard.com -p 1-9000
+Warning: File ./nmap-os-db exists, but Nmap is using /usr/local/bin/../share/nmap/nmap-os-db for security and consistency reasons.  set NMAPDIR=. to give priority to files in your local directory (may affect the other data files too).
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-05-03 13:07 CST
+Nmap scan report for www.baihecard.com (39.106.55.184)
+Host is up (0.17s latency).
+Not shown: 8992 filtered ports
+PORT     STATE  SERVICE       VERSION
+22/tcp   open   ssh           OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp   open   http          nginx 1.10.3 (Ubuntu)
+443/tcp  closed https
+3389/tcp closed ms-wbt-server
+8860/tcp open   http          nginx 1.10.3 (Ubuntu)
+8870/tcp open   http          Node.js Express framework
+8880/tcp closed cddbp-alt
+8890/tcp closed ddi-tcp-3
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 63.24 seconds
+[root@vultr nmap]# nmap -sS -O -sV  www.baihecard.com -p 1-65500
+Warning: File ./nmap-os-db exists, but Nmap is using /usr/local/bin/../share/nmap/nmap-os-db for security and consistency reasons.  set NMAPDIR=. to give priority to files in your local directory (may affect the other data files too).
+Starting Nmap 7.70SVN ( https://nmap.org ) at 2018-05-03 13:08 CST
+Nmap scan report for www.baihecard.com (39.106.55.184)
+Host is up (0.17s latency).
+Not shown: 65492 filtered ports
+PORT     STATE  SERVICE       VERSION
+22/tcp   open   ssh           OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp   open   http          nginx 1.10.3 (Ubuntu)
+443/tcp  closed https
+3389/tcp closed ms-wbt-server
+8860/tcp open   http          nginx 1.10.3 (Ubuntu)
+8870/tcp open   http          Node.js Express framework
+8880/tcp closed cddbp-alt
+8890/tcp closed ddi-tcp-3
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 190.04 seconds

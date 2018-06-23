@@ -1,0 +1,15 @@
+POST /wxPay/reqCardNo HTTP/1.1
+Host: www.baihecard.com:8870
+Connection: keep-alive
+Content-Length: 27
+Accept: application/json, text/plain, */*
+Origin: http://www.baihecard.com:8860
+User-Agent: Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 XL Build/OPM2.171019.029; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 Mobile Safari/537.36 MicroMessenger/6.6.2.1240(0x26060240) NetType/4G Language/en
+Content-Type: application/json;charset=UTF-8
+Referer: http://www.baihecard.com:8860/?code=r1sRCbzktd_7xd3zU2jHElt8J3lr0B5IT_cSlOqDDpI
+Accept-Encoding: gzip, deflate
+Accept-Language: en,en-US;q=0.9,zh-CN;q=0.8,en-AU;q=0.7
+Cookie: mmsess=s%3Afb_-EQJhXeDbe7jgrC9yE5mCS74Oojcj.s4Ofc%2FX8%2Fqa6sQG%2Fty1PzxOi7qZv77TqnkN3VmlJDHk
+X-Requested-With: com.tencent.mm
+
+{"IdentityID":"2016081850"}

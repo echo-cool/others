@@ -1,0 +1,80 @@
+PING blog.echo.cool (45.76.159.116) 56(84) bytes of data.
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=1 ttl=39 time=95.8 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=2 ttl=39 time=93.4 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=3 ttl=39 time=183 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=4 ttl=39 time=93.6 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=5 ttl=39 time=114 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=6 ttl=39 time=104 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=7 ttl=39 time=101 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=8 ttl=39 time=101 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=9 ttl=39 time=99.3 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=10 ttl=39 time=93.1 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=11 ttl=39 time=100 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=12 ttl=39 time=116 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=13 ttl=39 time=93.8 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=14 ttl=39 time=249 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=15 ttl=39 time=140 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=16 ttl=39 time=223 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=17 ttl=39 time=144 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=18 ttl=39 time=164 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=19 ttl=39 time=98.9 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=20 ttl=39 time=105 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=21 ttl=39 time=101 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=22 ttl=39 time=94.4 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=23 ttl=39 time=112 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=24 ttl=39 time=115 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=25 ttl=39 time=97.4 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=26 ttl=39 time=105 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=27 ttl=39 time=116 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=28 ttl=39 time=191 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=29 ttl=39 time=255 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=30 ttl=39 time=175 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=31 ttl=39 time=260 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=32 ttl=39 time=182 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=33 ttl=39 time=99.3 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=34 ttl=39 time=97.6 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=35 ttl=39 time=92.4 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=35 ttl=39 time=92.4 ms (DUP!)
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=36 ttl=39 time=101 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=37 ttl=39 time=99.7 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=38 ttl=39 time=110 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=39 ttl=39 time=103 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=40 ttl=39 time=96.4 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=41 ttl=39 time=113 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=42 ttl=39 time=100 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=43 ttl=39 time=230 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=43 ttl=39 time=230 ms (DUP!)
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=44 ttl=39 time=152 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=45 ttl=39 time=215 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=46 ttl=39 time=135 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=47 ttl=39 time=94.1 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=48 ttl=39 time=101 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=49 ttl=39 time=116 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=50 ttl=39 time=93.5 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=51 ttl=39 time=95.8 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=52 ttl=39 time=94.8 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=53 ttl=39 time=154 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=54 ttl=39 time=104 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=55 ttl=39 time=138 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=56 ttl=39 time=98.5 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=57 ttl=39 time=144 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=58 ttl=39 time=101 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=59 ttl=39 time=125 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=60 ttl=39 time=185 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=61 ttl=39 time=119 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=62 ttl=39 time=134 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=63 ttl=39 time=144 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=64 ttl=39 time=123 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=65 ttl=39 time=165 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=66 ttl=39 time=251 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=67 ttl=39 time=95.1 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=68 ttl=39 time=104 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=69 ttl=39 time=96.7 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=70 ttl=39 time=91.3 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=71 ttl=39 time=95.1 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=72 ttl=39 time=97.3 ms
+64 bytes from 45.76.159.116.vultr.com (45.76.159.116): icmp_seq=73 ttl=39 time=115 ms
+
+--- blog.echo.cool ping statistics ---
+73 packets transmitted, 73 received, +2 duplicates, 0% packet loss, time 72069ms
+rtt min/avg/max/mdev = 91.308/129.136/260.449/46.169 ms
